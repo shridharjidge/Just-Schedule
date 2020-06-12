@@ -1,0 +1,78 @@
+﻿{
+    "schedule": [{
+        "date": "2019-11-19T05:31:19.627Z",
+        "groups": [{
+                "time": "8:00 am",
+                "sessions": [{
+                    "name": "Breakfast",
+                    "timeStart": "8:00 am",
+                    "description": "Have regular diet",
+                    "timeEnd": "9:00 am",
+                    "location": "Dining Hall",
+                    "tracks": ["Details"],
+                    "id": "1"
+                }]
+            },
+            {
+                "time": "9:15 am",
+                "sessions": [{
+                    "name": "Project submission",
+                    "location": "Hall 2",
+                    "description": "Reporting all research papers, test cases, debug reports.",
+                    "speakerNames": ["Ted Turtle"],
+                    "timeStart": "9:30 am",
+                    "timeEnd": "9:45 am",
+                    "tracks": ["Documentation"],
+                    "id": "2"
+                }]
+            },
+            {
+                "time": "6:00 pm",
+                "sessions": [{
+                    "name": "Groceries",
+                    "location": "Dmart",
+                    "description": "",
+                    "speakerNames": ["Eva Eagle", "Lionel Lion"],
+                    "timeStart": "10:00 am",
+                    "timeEnd": "10:15 am",
+                    "tracks": ["Navigation"],
+                    "id": "3"
+                }]
+            }
+        ]
+    }],
+
+    "speakers": [{
+        "name": "Burt Bear",
+        "profilePic": "assets/img/speakers/bear.jpg",
+        "instagram": "ionicframework",
+        "twitter": "ionicframework",
+        "github": "ionic-team/ionic",
+        "about": "Burt is a Bear.",
+        "location": "Everywhere",
+        "email": "burt@example.com",
+        "phone": "+1-541-754-3010",
+        "id": "1"
+    }],
+
+    "map": [{
+        "name": "Monona Terrace Convention Center",
+        "lat": 43.071584,
+        "lng": -89.38012,
+        "center": true
+    }],
+
+    "tracks": [{
+            "name": "Documentation",
+            "icon": "document"
+        },
+        {
+            "name": "Details",
+            "icon": "restaurant"
+        },
+        {
+            "name": "Navigation",
+            "icon": "compass"
+        }
+    ]
+}

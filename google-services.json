@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "501811336308",
+    "firebase_url": "https://justschedule-fbd96.firebaseio.com",
+    "project_id": "justschedule-fbd96",
+    "storage_bucket": "justschedule-fbd96.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501811336308:android:3930bc38b6b14f3126ed21",
+        "android_client_info": {
+          "package_name": "com.ionicframework.conferenceapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "501811336308-odtpbg3q93o9ajhqpt12psrjv0fa86o7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiC4QVwts1EwsqjrZlsXX_QSJPsK-U9JU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "501811336308-odtpbg3q93o9ajhqpt12psrjv0fa86o7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

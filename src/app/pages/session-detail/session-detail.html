@@ -1,0 +1,41 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-back-button [defaultHref]="defaultHref"></ion-back-button>
+        </ion-buttons>
+        <ion-buttons slot="end">
+
+            <ion-button (click)="shareSession()">
+                <ion-icon slot="icon-only" name="share"></ion-icon>
+            </ion-button>
+
+            <ion-button (click)="deleteSession()">
+                <ion-icon slot="icon-only" name="trash"></ion-icon>
+            </ion-button>
+
+        </ion-buttons>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+        <div *ngIf="session" class="ion-padding">
+                <h1>{{session.name}}</h1>
+                <!-- <span *ngFor="let track of session?.tracks" [class]="'session-track-'+track.toLowerCase()">{{track}}</span> -->
+                <p>{{session.description}}</p>
+                <ion-text color="medium">
+                  {{session.timeStart}}
+                  <br /> {{session.location}}
+                </ion-text>
+        </div>
+    <ion-list>
+        <ion-item (click)="sessionClick('add to calendar')" button>
+            <ion-label color="primary">Add to Calendar</ion-label>
+        </ion-item>
+    </ion-list>
+
+    <ion-fab vertical="bottom" horizontal="center" slot="fixed">
+        <ion-fab-button color="success">
+            <ion-icon size="large" name="checkmark-circle-outline"></ion-icon>
+        </ion-fab-button>
+    </ion-fab>
+</ion-content>
